@@ -1,0 +1,25 @@
+{
+  "name": "bestiary-srd",
+  "version": "1.0.0",
+  "description": "This will be the server file to handle the various get requests and make calls to the api so that we can send data back to the page",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrownRileyC/Bestiary-SRD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrownRileyC/Bestiary-SRD/issues"
+  },
+  "homepage": "https://github.com/BrownRileyC/Bestiary-SRD#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
